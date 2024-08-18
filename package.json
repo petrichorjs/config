@@ -1,7 +1,14 @@
 {
   "name": "@petrichorjs/config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "homepage": "https://github.com/petrichorjs/config",
+  "repository": {
+    "url": "git+https://github.com/petrichorjs/config.git"
+  },
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
   "exports": {
     "./prettier": "./configs/prettier/index.mjs",
     "./eslint": "./configs/eslint/index.mjs",
